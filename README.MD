@@ -18,7 +18,7 @@ The Nerd Fonts installer provides cross-platform scripts to easily install Nerd 
 
 ### ✨ Cross-Platform Support
 - **Linux/macOS**: Bash script (`install.sh`) with system-wide font installation
-- **Windows**: PowerShell script (`install.ps1`) with user-level font installation
+- **Windows 10/11**: PowerShell script (`install.ps1`) with user-level font installation
 
 ### 🎯 Easy to Use
 - Interactive menu with all 51+ Nerd Fonts
@@ -35,6 +35,22 @@ The Nerd Fonts installer provides cross-platform scripts to easily install Nerd 
 - Downloads latest versions from GitHub releases
 - Handles font extraction and installation automatically
 
+## Compatibility
+
+### Windows Support
+- **Windows 10**: Version 1903 (May 2019 Update) or later
+- **Windows 11**: All versions supported
+- **PowerShell**: 5.1+ or PowerShell Core 6+
+
+The Windows PowerShell script has been tested on:
+- Windows 10 Pro for Workstations (Build 26100)
+- PowerShell Core 7.5.2
+- PowerShell 5.1 (Windows PowerShell)
+
+### Linux/macOS Support
+- All modern Linux distributions with Bash 3.2+
+- macOS 10.9+ (Mavericks) or later
+
 ## Demo
 ![DEMO](/media/install-nerd-font.gif "install nerd font")
 
@@ -48,7 +64,11 @@ bash -c  "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/ne
 ```
 
 ### Windows (PowerShell)
-For Windows users, use the PowerShell version of the installer:
+For Windows users, use the PowerShell version of the installer.
+
+**Requirements:**
+- Windows 10 (version 1903 or later) or Windows 11
+- PowerShell 5.1+ or PowerShell Core 6+
 
 ```powershell
 # Run in PowerShell (requires PowerShell Core 6+ or Windows PowerShell 5.1+)
